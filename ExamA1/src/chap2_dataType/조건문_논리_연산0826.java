@@ -20,13 +20,15 @@ public class 조건문_논리_연산0826 {
 
 		    String st = sc.next(); //문자열일 때 
 
-		    boolean b =false;
 
-		    if( n> 20 && n <30 && st.equals("busan") ){
-		    	b = !b;
-		    	
-		    }
-		    System.out.println("나이 : " + n + "," + " 도시 : "+ st + "," + " 부산청년여부 : " + b);
+		    String young = (st.equals("busan")) ? "참" : "거짓";
+		    
+//		    boolean b =false;
+//		    if( n> 20 && n <30 && st.equals("busan") ){
+//		    	b = !b;
+//		    }
+		    
+		    System.out.println("나이 : " + n + "," + " 도시 : "+ st + "," + " 부산청년여부 : " + young);
 		    	
 		         // 불리언 변수 선언 및 초기화
 
