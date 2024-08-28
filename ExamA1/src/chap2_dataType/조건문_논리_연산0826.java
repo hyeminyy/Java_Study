@@ -10,15 +10,16 @@ public class 조건문_논리_연산0826 {
 
 		    * 정수 나이ㅡ 도시 이름 부산를 화면에서 입력받는다
 
+
 		    * 
 
 		    */
 
 		      Scanner sc = new Scanner(System.in);
 
-		    int n = sc.nextInt(); //정수일 때
+		    int n = sc.nextInt(); //정수일 때(나이)
 
-		    String st = sc.next(); //문자열일 때 
+		    String st = sc.next(); //문자열일 때 (도시)
 
 
 		    String young = (st.equals("busan")) ? "참" : "거짓";
