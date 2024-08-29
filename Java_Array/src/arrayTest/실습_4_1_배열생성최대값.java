@@ -22,6 +22,7 @@ public class 실습_4_1_배열생성최대값 {
 
 		System.out.println("\n"+"최대값 : " + priceMax);
 
+	
 		
 		  // 1차원 배열 생성 및 초기화
 				/*

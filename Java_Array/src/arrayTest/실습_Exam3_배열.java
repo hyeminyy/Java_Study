@@ -9,7 +9,7 @@ public class 실습_Exam3_배열 {
 		String[] subjs = {"국어", "수학", "영어", "과학", "역사"};
 		int[] criteria = {50,60,70,80,90};
 		int[][] scores = {{85,90,78,88,92},{75,80,85,90,95},{65,70,75,90,85},{95,92,88,84,91},{88,76,85,79,90}};
-		
+	
 		
 		System.out.println(">>> 학생별, 과목별 점수, 통과여부 출력");
 		System.out.println("=======================================================================");
@@ -57,6 +57,7 @@ public class 실습_Exam3_배열 {
 
             for (int j = 1; j < scores.length; j++) {
                 if (scores[j][i] > max) {
+
                     max = scores[j][i];
                     maxName = names[j];
                 }
