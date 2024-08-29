@@ -14,7 +14,7 @@ public class 실습_4_3_2차원행렬더하기 {
 			for (int j = 0; j < arr1[i].length; j++) {
 				System.out.print(arr1[i][j] + " ");
 			}
-		
+		                                               
 			System.out.println("\n");
 		}
 		System.out.println("===================================");
