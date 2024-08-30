@@ -84,6 +84,7 @@ package classTest;
 		    subjects = newSubjects;
 		    years = newYears;
 			
+		   
 		}
 		
 //		void addSubjectYear(String subject, int year) {//과목, 수강연도를 매개변수로 전달받아 배열에 추가

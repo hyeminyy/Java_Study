@@ -11,7 +11,7 @@ class Person0{
 	
 }
 
-public class 실습1 {
+public class 실습5_class예제 {
 	public static void main(String[] args) {
 		int a= 10;
 		int arr[] = new int[5];
