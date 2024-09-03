@@ -20,26 +20,31 @@ class Student8 {
     }
 
     public static void getNumberStudents() { // 학생 수를 반환하는 정적 메소드
+    	System.out.println("-----------------------------------");
         System.out.println("총 : " + count + "명");
+        System.out.println("-----------------------------------");
+        System.out.println();
     }
 
     public void printStudent() {
+    	System.out.println("-----------------------------------");
     	 System.out.println("이름 : " + name + ", 나이 : " + age);
     	    for (int i = 0; i < subjects.length; i++) {
     	        String result = score[i] >= passFail[i] ? "Pass" : "Fail";
     	        System.out.println("과목 : " + subjects[i] + " , 점수 : " + score[i] + ", 통과여부 : " + result);
     	    }
-    	    System.out.println("");
+    	    System.out.println("-----------------------------------");
+    	    System.out.println();
     }
 
-    public boolean isPassed() {
-    	  for (int i = 0; i < subjects.length; i++) {
-    	        if (score[i] < passFail[i]) {
-    	            return false;
-    	        }
-    	    }
-    	    return true; 
-    }
+//    public boolean isPassed() {
+//    	  for (int i = 0; i < subjects.length; i++) {
+//    	        if (score[i] < passFail[i]) {
+//    	            return false;
+//    	        }
+//    	    }
+//    	    return true; 
+//    }
 
     // 각 학생의 성적 테이블을 출력하는 정적 메소드
     public static void printAllStudents(Student8[] students) {
@@ -72,9 +77,11 @@ class Student8 {
         }
 
         for (int i = 0; i < subjectCount; i++) {
-           //System.out.println(subjects[i] + " 과목:");
+        	System.out.println("-----------------------------------");
+           System.out.println(students[0].subjects[i] + " 과목");
             System.out.println("최고 점수: " + maxScores[i]  +" 학생 이름 : "+ maxScoreStudents[i] );
             System.out.println("최고 점수: " + minScores[i]  +" 학생 이름 : "+ minScoreStudents[i] );
+            System.out.println("-----------------------------------");
             System.out.println();
         }
     }
