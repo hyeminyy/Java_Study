@@ -10,7 +10,7 @@ public class Customer {
 	 public String getCname() {
 		return cname;
 	}
-	public void setCname(String cname) {
+ 	public void setCname(String cname) {
 		this.cname = cname;
 	}
 	public String getCity() {
@@ -31,8 +31,10 @@ public class Customer {
 	        this.age = age;
 	    }
 	
-	 @Override
+
+	@Override
 	    public String toString() {
 	        return "Name: " + cname + ", City: " + city + ", Age: " + age;
 	    }
+
 }
